@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1622204099370" />
+        <option name="importOrderConfigFilePath" value="/Applications/org.eclipse.jdt.ui.prefs" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="name" value="springcloud" />
+        <option name="pathToConfigFileJava" value="/Applications/eclipse-code-formatter.xml" />
+        <option name="selectedJavaProfile" value="Spring Boot Java Conventions" />
+      </Settings>
+    </option>
+  </component>
+</project>
