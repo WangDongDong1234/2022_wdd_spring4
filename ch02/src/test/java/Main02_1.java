@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @author: WangDongDong
  * @version: v1.0
  * @create: 2021-07-26 00:14
- * @description
+ * @description 以配置类所在的包作为基础包（basepackage）来扫描组件
  **/
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes= CDPlayerConfig.class)
