@@ -1,5 +1,6 @@
 package autoConfig;
 
+import autoConfig.cd.SgtPeppers;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @description  ，@ComponentScan默认会扫描与配置类相同的包
  **/
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages = {"autoConfig.cd"})
+//@ComponentScan(basePackageClasses = {SgtPeppers.class})
 public class CDPlayerConfig {
 }
